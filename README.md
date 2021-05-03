@@ -22,7 +22,7 @@ cd /
 ```  
 Clone the repository
 ```
-git clone https://github.com/acastellanos-ie/natural_language_processing.git
+git clone https://github.com/acastellanos-ie/MBD-EN-BL-ENE-2020-J-1.git
 ```
 
 After cloning you should see all the materials in your local folder (and your local folder will be connected to this repo).
@@ -35,8 +35,8 @@ I strongly recommend you to use Anaconda to manage your Python environments. [Li
 
 ## Create the `conda` environment
 
-`conda` environments are the playgrounds on which we’ll work in Python. There are other tools to create environments too, but `conda` is included and installed when installing the
-Anaconda suite and is one the industry’s standards.
+`conda` environments are the playgrounds on which weâ€™ll work in Python. There are other tools to create environments too, but `conda` is included and installed when installing the
+Anaconda suite and is one the industryâ€™s standards.
 
 1. Open a terminal and go the folder you previously created
 
@@ -50,7 +50,7 @@ Anaconda suite and is one the industry’s standards.
   conda create --name nlp python=3.8
   ```
   
-After the parameter `--name` we define the name of our environment. In my case, it’s `nlp`. Also you can choose the python version (3.8 for us).
+After the parameter `--name` we define the name of our environment. In my case, itâ€™s `nlp`. Also you can choose the python version (3.8 for us).
 
 3. Activate your environment:
 
@@ -60,11 +60,11 @@ After the parameter `--name` we define the name of our environment. In my case, 
   
 ## Install the required libraries in your environment
 
-In order to have a smooth and stable environment, it’s common to have a `requirements.txt` file that includes all the libraries that are used in your projects. 
+In order to have a smooth and stable environment, itâ€™s common to have a `requirements.txt` file that includes all the libraries that are used in your projects. 
 
-That way, whenever you join a new project, it’s easy to start working without worrying about missing libraries or modules.
+That way, whenever you join a new project, itâ€™s easy to start working without worrying about missing libraries or modules.
 
-Installing the required libraries in our environment it’s as easy as follows (the requirements.txt is the file included in this repository):
+Installing the required libraries in our environment itâ€™s as easy as follows (the requirements.txt is the file included in this repository):
 
 ```
 pip install -r requirements.txt
@@ -93,4 +93,4 @@ jupyter notebook
 A new tab of your browser will open with the Jupyter session, showing all the available environments. To create a Notebook with your current environment, select it from the
 Notebooks list.
 
-And now you’re ready to start!
+And now youâ€™re ready to start!
