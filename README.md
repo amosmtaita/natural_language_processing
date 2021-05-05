@@ -101,4 +101,4 @@ As we will cover in class, the most advanced NLP methodologies nowadays are base
 
 In particular, in order to use these models, it is highly recommended to have a GPU at your disposal. As I imagine that most of you do not have one in your compute, my recommendation is to leverage [Google Colab](https://colab.research.google.com/).
 
-Google Colab provides you an environment in which you can execute Python code and have access to GPUs.
+Google Colab provides you an environment in which you can execute Python code and have access to GPUs. If you want to execute any of the notebooks in this repository in Colab, you can upload the notebook to Google Colab and execute it there.
