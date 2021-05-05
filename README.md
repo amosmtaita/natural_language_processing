@@ -70,7 +70,7 @@ Installing the required libraries in our environment it’s as easy as follows (
 pip install -r requirements.txt
 ```
 
-# Open a Jupyter/JupyterLab session with our current environment
+## Open a Jupyter/JupyterLab session with our current environment
 
 Before opening a Jupyter session, we have to make sure that our environments will be included. In order to solve this, run the following command:
 
@@ -94,3 +94,11 @@ A new tab of your browser will open with the Jupyter session, showing all the av
 Notebooks list.
 
 And now you’re ready to start!
+
+# Working with GPUs
+
+As we will cover in class, the most advanced NLP methodologies nowadays are based on Deep Learning models. These models, while providing an impressive performance in many task, have the limitation of their complexity and the computation power they require.
+
+In particular, in order to use these models, it is highly recommended to have a GPU at your disposal. As I imagine that most of you do not have one in your compute, my recommendation is to leverage [Google Colab](https://colab.research.google.com/).
+
+Google Colab provides you an environment in which you can execute Python code and have access to GPUs.
